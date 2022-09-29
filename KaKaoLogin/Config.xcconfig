@@ -1,0 +1,11 @@
+//
+//  Config.xcconfig
+//  KaKaoLogin
+//
+//  Created by 최기훈 on 2022/09/29.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+KAKAO_NATIVE_APP_KEY = 4c7e07b08961c1a81d5acaad3865b26a

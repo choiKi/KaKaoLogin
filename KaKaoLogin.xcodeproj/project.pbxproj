@@ -16,6 +16,18 @@
 		C434CC5D28E5D9B900A7868C /* KaKaoLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C434CC5C28E5D9B900A7868C /* KaKaoLoginTests.swift */; };
 		C434CC6728E5D9B900A7868C /* KaKaoLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C434CC6628E5D9B900A7868C /* KaKaoLoginUITests.swift */; };
 		C434CC6928E5D9B900A7868C /* KaKaoLoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C434CC6828E5D9B900A7868C /* KaKaoLoginUITestsLaunchTests.swift */; };
+		C434CC7928E5DDB900A7868C /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = C434CC7828E5DDB900A7868C /* KakaoSDK */; };
+		C434CC7B28E5DDB900A7868C /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C434CC7A28E5DDB900A7868C /* KakaoSDKAuth */; };
+		C434CC7D28E5DDB900A7868C /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = C434CC7C28E5DDB900A7868C /* KakaoSDKCommon */; };
+		C434CC7F28E5DDB900A7868C /* KakaoSDKCommonCore in Frameworks */ = {isa = PBXBuildFile; productRef = C434CC7E28E5DDB900A7868C /* KakaoSDKCommonCore */; };
+		C434CC8128E5DDB900A7868C /* KakaoSDKNavi in Frameworks */ = {isa = PBXBuildFile; productRef = C434CC8028E5DDB900A7868C /* KakaoSDKNavi */; };
+		C434CC8328E5DDB900A7868C /* KakaoSDKShare in Frameworks */ = {isa = PBXBuildFile; productRef = C434CC8228E5DDB900A7868C /* KakaoSDKShare */; };
+		C434CC8528E5DDB900A7868C /* KakaoSDKStory in Frameworks */ = {isa = PBXBuildFile; productRef = C434CC8428E5DDB900A7868C /* KakaoSDKStory */; };
+		C434CC8728E5DDB900A7868C /* KakaoSDKTalk in Frameworks */ = {isa = PBXBuildFile; productRef = C434CC8628E5DDB900A7868C /* KakaoSDKTalk */; };
+		C434CC8928E5DDB900A7868C /* KakaoSDKTemplate in Frameworks */ = {isa = PBXBuildFile; productRef = C434CC8828E5DDB900A7868C /* KakaoSDKTemplate */; };
+		C434CC8B28E5DDB900A7868C /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = C434CC8A28E5DDB900A7868C /* KakaoSDKUser */; };
+		C434CC8D28E5E57000A7868C /* KakaoAuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C434CC8C28E5E57000A7868C /* KakaoAuthVM.swift */; };
+		C434CC9028E5E67700A7868C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C434CC8F28E5E67700A7868C /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,8 @@
 		C434CC6228E5D9B900A7868C /* KaKaoLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaKaoLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C434CC6628E5D9B900A7868C /* KaKaoLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaKaoLoginUITests.swift; sourceTree = "<group>"; };
 		C434CC6828E5D9B900A7868C /* KaKaoLoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaKaoLoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C434CC7628E5DBDB00A7868C /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		C434CC8C28E5E57000A7868C /* KakaoAuthVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoAuthVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C434CC7928E5DDB900A7868C /* KakaoSDK in Frameworks */,
+				C434CC8728E5DDB900A7868C /* KakaoSDKTalk in Frameworks */,
+				C434CC7F28E5DDB900A7868C /* KakaoSDKCommonCore in Frameworks */,
+				C434CC8128E5DDB900A7868C /* KakaoSDKNavi in Frameworks */,
+				C434CC8528E5DDB900A7868C /* KakaoSDKStory in Frameworks */,
+				C434CC8928E5DDB900A7868C /* KakaoSDKTemplate in Frameworks */,
+				C434CC7D28E5DDB900A7868C /* KakaoSDKCommon in Frameworks */,
+				C434CC7B28E5DDB900A7868C /* KakaoSDKAuth in Frameworks */,
+				C434CC8B28E5DDB900A7868C /* KakaoSDKUser in Frameworks */,
+				C434CC8328E5DDB900A7868C /* KakaoSDKShare in Frameworks */,
+				C434CC9028E5E67700A7868C /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +131,8 @@
 				C434CC4E28E5D9B900A7868C /* Assets.xcassets */,
 				C434CC5028E5D9B900A7868C /* LaunchScreen.storyboard */,
 				C434CC5328E5D9B900A7868C /* Info.plist */,
+				C434CC7628E5DBDB00A7868C /* Config.xcconfig */,
+				C434CC8C28E5E57000A7868C /* KakaoAuthVM.swift */,
 			);
 			path = KaKaoLogin;
 			sourceTree = "<group>";
@@ -143,6 +170,19 @@
 			dependencies = (
 			);
 			name = KaKaoLogin;
+			packageProductDependencies = (
+				C434CC7828E5DDB900A7868C /* KakaoSDK */,
+				C434CC7A28E5DDB900A7868C /* KakaoSDKAuth */,
+				C434CC7C28E5DDB900A7868C /* KakaoSDKCommon */,
+				C434CC7E28E5DDB900A7868C /* KakaoSDKCommonCore */,
+				C434CC8028E5DDB900A7868C /* KakaoSDKNavi */,
+				C434CC8228E5DDB900A7868C /* KakaoSDKShare */,
+				C434CC8428E5DDB900A7868C /* KakaoSDKStory */,
+				C434CC8628E5DDB900A7868C /* KakaoSDKTalk */,
+				C434CC8828E5DDB900A7868C /* KakaoSDKTemplate */,
+				C434CC8A28E5DDB900A7868C /* KakaoSDKUser */,
+				C434CC8F28E5E67700A7868C /* SnapKit */,
+			);
 			productName = KaKaoLogin;
 			productReference = C434CC4228E5D9B800A7868C /* KaKaoLogin.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +255,10 @@
 				Base,
 			);
 			mainGroup = C434CC3928E5D9B800A7868C;
+			packageReferences = (
+				C434CC7728E5DDB900A7868C /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+				C434CC8E28E5E67700A7868C /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = C434CC4328E5D9B800A7868C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C434CC8D28E5E57000A7868C /* KakaoAuthVM.swift in Sources */,
 				C434CC4A28E5D9B800A7868C /* ViewController.swift in Sources */,
 				C434CC4628E5D9B800A7868C /* AppDelegate.swift in Sources */,
 				C434CC4828E5D9B800A7868C /* SceneDelegate.swift in Sources */,
@@ -318,6 +363,7 @@
 /* Begin XCBuildConfiguration section */
 		C434CC6A28E5D9B900A7868C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C434CC7628E5DBDB00A7868C /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -378,6 +424,7 @@
 		};
 		C434CC6B28E5D9B900A7868C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C434CC7628E5DBDB00A7868C /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -432,6 +479,7 @@
 		};
 		C434CC6D28E5D9B900A7868C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C434CC7628E5DBDB00A7868C /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +508,7 @@
 		};
 		C434CC6E28E5D9B900A7868C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C434CC7628E5DBDB00A7868C /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +537,7 @@
 		};
 		C434CC7028E5D9B900A7868C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C434CC7628E5DBDB00A7868C /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +558,7 @@
 		};
 		C434CC7128E5D9B900A7868C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C434CC7628E5DBDB00A7868C /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +579,7 @@
 		};
 		C434CC7328E5D9B900A7868C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C434CC7628E5DBDB00A7868C /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +598,7 @@
 		};
 		C434CC7428E5D9B900A7868C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C434CC7628E5DBDB00A7868C /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -602,6 +655,83 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C434CC7728E5DDB900A7868C /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		C434CC8E28E5E67700A7868C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C434CC7828E5DDB900A7868C /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C434CC7728E5DDB900A7868C /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		C434CC7A28E5DDB900A7868C /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C434CC7728E5DDB900A7868C /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		C434CC7C28E5DDB900A7868C /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C434CC7728E5DDB900A7868C /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
+		};
+		C434CC7E28E5DDB900A7868C /* KakaoSDKCommonCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C434CC7728E5DDB900A7868C /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommonCore;
+		};
+		C434CC8028E5DDB900A7868C /* KakaoSDKNavi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C434CC7728E5DDB900A7868C /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKNavi;
+		};
+		C434CC8228E5DDB900A7868C /* KakaoSDKShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C434CC7728E5DDB900A7868C /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKShare;
+		};
+		C434CC8428E5DDB900A7868C /* KakaoSDKStory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C434CC7728E5DDB900A7868C /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKStory;
+		};
+		C434CC8628E5DDB900A7868C /* KakaoSDKTalk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C434CC7728E5DDB900A7868C /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKTalk;
+		};
+		C434CC8828E5DDB900A7868C /* KakaoSDKTemplate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C434CC7728E5DDB900A7868C /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKTemplate;
+		};
+		C434CC8A28E5DDB900A7868C /* KakaoSDKUser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C434CC7728E5DDB900A7868C /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKUser;
+		};
+		C434CC8F28E5E67700A7868C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C434CC8E28E5E67700A7868C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C434CC3A28E5D9B800A7868C /* Project object */;
 }
